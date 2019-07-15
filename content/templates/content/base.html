@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>University Of St Andrews Fencing Club</title>
+    <link rel="stylesheet" href="{% static 'css/content.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Icons-->
+    <script type="text/javascript" src="{% static 'js/scripts.js' %}"></script>
+  </head>
+  <body>
+    <div class="header" id="header"> <!-- TODO: Update URLS -->
+      <a href="#">Home</a> 
+      <a href="#">About</a>
+      <a href="#">Connect</a>
+      <a href="#">Partnerships</a>
+      <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
