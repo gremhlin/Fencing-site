@@ -1,5 +1,90 @@
 {% extends 'content/base.html' %}
+{% load static %}
+
 
 {% block content%}
-  <p>ABOUT</p>
+  <div class="parallax" style="background-image: url('{% static 'images/fencing-4.jpg' %}')"></div>
+  <div class="w3-auto">
+    <h1>About us</h1>
+
+    <h3>2019-2020 Comittee</h3>
+    <div class="w3-responsive">
+      <table class="w3-table w3-striped">
+        <tr>
+          <th>Position</th>
+          <th>Name</th>
+        </tr>
+        <tr>
+          <td>Men's Captain</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Women's Captain</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Secretary</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Treasurer</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Armourer</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Assistant Armourer / Health & Safety Officer</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Social Representative</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Publicity Representative</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Competitions Officer / Alumni Rep</td>
+          <td>Vinson Wong</td>
+        </tr>
+        <tr>
+          <td>Beginners Representative</td>
+          <td>Vinson Wong</td>
+        </tr>
+      </table>
+    </div> <!--End of table-->
+
+    <h3>Competitions</h3>
+    <p>For the 2018-2019 season, the St Andrews Men's First Team will compete
+      in the British University and College Sport (BUCS) Fencing league,
+      while the Women's First Team will compete in the Scottish 1A League.</p>
+
+    <p>The club also hosts competitions of our own organisation.
+      In the past, we have run the Saints Sabre Open in the fall,
+      the Mixed Team Competition in April and the Combat Triathalon in May.
+      These competitions are designed to extend beyond the club, so anyone is
+      welcome to participate. Please email us at fencing@saints-sport.com if you
+      are inclined to find out more about any of our events.
+    </p>
+
+    <div class="partnerships">
+      <h3>Partnerships</h3>
+
+      <h4>The Rule St Andrews</h4>
+      <p>A favourite local hangout of the team where bi-monthly socials are held.<br>
+        <a href="https://www.craft-pubs.co.uk/the-rule">
+        https://www.craft-pubs.co.uk/the-rule</a>
+      </p>
+
+      <h4>Macron and Richmond Sport</h4>
+      <p>Offical sportswear sponsor of the University's Athletic Union.
+        Check out clothing specifically designed for Saints at
+        <a href="https://www.richmondsport.co.uk/university-of-st-andrews">
+        https://www.richmondsport.co.uk/university-of-st-andrews</a>
+      </p>
+    </div>
+  </div>
 {% endblock %}

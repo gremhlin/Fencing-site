@@ -1,5 +1,23 @@
 {% extends 'content/base.html' %}
+{% load static %}
+
 
 {% block content%}
-  <p>CONNECT</p>
+  <div class="parallax" style="background-image: url('{% static 'images/fencing-1.jpg' %}')"></div>
+  <div class="w3-auto link-container">
+    <h1>Get in touch</h1>
+    <a href="mailto:fencing@saints-sport.com"><h3>Email: fencing@saints-sports.com</h3></a>
+    <p>Contact us about any queries you might have.</p>
+    <a href="https://www.facebook.com/UStAFencing/"><h3>Facebook page</h3></a>
+    <p>Like our page on Facebook to be in the know about club events coming up.</p>
+
+    <a href="https://www.facebook.com/groups/156230114439759/"><h3>Facebook group</h3></a>
+    <p>Join our group for weekly updates regarding practices and matches.</p>
+
+    <a href="https://twitter.com/UStAFencing"><h3>Twitter</h3></a>
+    Follow us on Twitter to hear about our competition results right as they happen.
+
+    <a href="https://www.instagram.com/ustafencing/"><h3>Instagram</h3></a>
+    <p>Follow us on Instagram for great pics of good fencing and of equally good times.</p>
+  </div>
 {% endblock %}

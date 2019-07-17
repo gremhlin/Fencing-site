@@ -1,5 +1,40 @@
 {% extends 'content/base.html' %}
+{% load static %}
+
 
 {% block content%}
-  <p>HOME</p>
+  <div class="parallax" style="background-image: url('{% static 'images/fencing-3.jpg' %}')"></div>
+  <div class="w3-auto">
+    <h1>Fencing at St Andrews</h1>
+    <p>As a club, we compete in all three weapons. We are very proud to say
+      that anyone is welcome join the club no matter what skill level. Complete
+      beginners can benefit from beginners sessions where current team members
+      teach the basics of fencing. Veteran fencers who want to get involved with
+      the club will have the opportunity to hone their technique with weekly
+      lessons from our coach, Stan Stoodley, and compete on behalf of the
+      University across the United Kingdom. <br>
+      Frequently shortlisted by the University's Athletic Union for the award
+      of Club of the Year, the club is a great way to make the most of your time at St Andrews.  Over the
+      course of a year of practices, bus rides to away matches, Sinners on
+      Wednesday nights at the Student Union, you get to know everyone on the
+      team.
+    </p>
+
+    <div class="w3-bottombar saints-border-blue">
+      <h3>Training Times</h3>
+    </div>
+
+    <ul class="w3-ul">
+      <li>Mondays: Beginner Session from 8:00 to 10:30 pm</li>
+      <li>Wednesdays: Advanced Session from 1:30 to 2:30 pm, Open Box from 2:30 to 5:00 pm</li>
+      <li>Fridays: Team training from 1:00 to 2:30 pm, Beginners Session from 2:30 to 4:00 pm</li>
+      <li>Sundays: Team Training from 6:30 to 9:00 pm</li>
+    </ul>
+    <br>
+    <p>To join, email <a href="mailto:fencing@saints-sport.com">fencing@saints-sport.com</a> to let us know you're interested!</p>
+    <p>Club membership fee is £32 for one semester or £59 for two semesters
+      and can be purchased by clicking <a href="  http://onlineshop.st-andrews.ac.uk/
+      product-catalogue/athletic-union/memberships/university-of-st-andrews-fencing-club" target="_blank">here.</a>
+     </p>
+  </div>
 {% endblock %}
